@@ -21,6 +21,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -28,15 +29,14 @@
         app:layout_constraintTop_toBottomOf="@id/ll_mas_hermas">
 
         <TextView
-            android:id="@+id/tv_name_doanta"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+        android:id="@+id/tv_name_nisa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
         <TextView
-            android:id="@+id/tv_desc_doanta"
+            android:id="@+id/tv_desc_nisa"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-
+            android:layout_height="wrap_content"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
